@@ -1,4 +1,4 @@
-tp @s 0 68 0
+tp @s[tag=admin] 0 68 0
 
 execute as @s[tag=admin] run fill 4 68 4 -4 76 -4 air
 execute as @s[tag=admin] run fill 3 67 3 -3 60 -3 stone

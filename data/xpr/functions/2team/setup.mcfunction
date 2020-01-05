@@ -29,7 +29,7 @@ execute as @s[tag=admin] run setblock 0 62 0 beacon
 execute as @s[tag=admin] run fill 0 63 0 0 67 0 white_stained_glass
 
 setworldspawn 0 68 0
-gamerule spawnRadius 0
+gamerule spawnRadius 1
 
 scoreboard objectives add xp_score dummy "Team Score"
 scoreboard objectives add xp xp
