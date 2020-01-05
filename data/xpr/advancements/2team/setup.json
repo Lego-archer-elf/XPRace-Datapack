@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:2team/root",
+	"criteria":
+	{
+		"bedrock":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{"item": "minecraft:bedrock"}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:2team/setup"
+	}
+}

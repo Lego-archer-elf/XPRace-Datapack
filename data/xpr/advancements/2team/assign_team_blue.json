@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:2team/root",
+	"criteria":
+	{
+		"blue":
+		{
+			"trigger": "minecraft:inventory_changed",
+			"conditions":
+			{
+				"items":
+				[
+					{"item": "minecraft:blue_wool"}
+				]
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:2team/join_blue"
+	}
+}

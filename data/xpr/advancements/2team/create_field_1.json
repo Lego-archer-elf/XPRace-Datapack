@@ -1,0 +1,25 @@
+{
+	"parent": "xpr:2team/create_field_0",
+	"criteria":
+	{
+		"red":
+		{
+			"trigger": "minecraft:location",
+			"conditions":
+			{
+				"position":
+				{
+					"x":
+					{
+						"min": 990,
+						"max": 1010
+					}
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:2team/create_field_1"
+	}
+}

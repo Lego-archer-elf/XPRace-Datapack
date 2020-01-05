@@ -1,0 +1,28 @@
+{
+	"display":
+	{
+		"icon": {"item": "minecraft:enchanted_golden_apple"},
+		"title": {"text": "Start Game"},
+		"description": {"text": "Let's do this!!"},
+		"hidden": "false"
+	},
+	"parent": "xpr:2team/root",
+	"criteria":
+	{
+		"start_apple":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item":
+				{
+					"item": "minecraft:enchanted_golden_apple"
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:2team/start"
+	}
+}

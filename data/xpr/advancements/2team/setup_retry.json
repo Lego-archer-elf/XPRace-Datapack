@@ -1,0 +1,21 @@
+{
+	"parent": "xpr:2team/root",
+	"criteria":
+	{
+		"start_apple":
+		{
+			"trigger": "minecraft:consume_item",
+			"conditions":
+			{
+				"item":
+				{
+					"item": "minecraft:honey_bottle"
+				}
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:2team/setup_retry"
+	}
+}
