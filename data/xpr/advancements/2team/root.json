@@ -1,5 +1,5 @@
 {
-    "display": 
+    "display":
 	{
         "icon": {"item": "minecraft:experience_bottle"},
         "title": {"text":"XP-Race"},
@@ -8,12 +8,8 @@
         "show_toast": true,
         "announce_to_chat": false
     },
-    "criteria": 
+    "criteria":
 	{
         "instant": {"trigger": "minecraft:tick"}
     },
-	"rewards":
-	{
-		"function": "xpr:2team/join"
-	}
 }

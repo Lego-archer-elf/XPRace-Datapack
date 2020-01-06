@@ -1,7 +1,9 @@
 team add blue "Blue"
 team modify blue color blue
+team modify blue friendlyFire false
 team add red "Red"
 team modify red color red
+team modify red friendlyFire false
 
 tag @s remove waiting
 tag @s add admin
