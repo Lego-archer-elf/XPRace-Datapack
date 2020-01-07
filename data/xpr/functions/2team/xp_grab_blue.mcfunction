@@ -10,9 +10,9 @@ xp set @s[scores={death=102}] 0 levels
 
 scoreboard players operation @s[scores={death=102}] xp_previous = @s xp
 
-advancement revoke @s only xpr:2team/xp_grab_blue
-
 scoreboard players set @s[scores={death=102}] death 0
 scoreboard players set @s[scores={death=101}] death 102
 scoreboard players set @s[scores={death=0}] death 101
 scoreboard players set @s[scores={death=1..100}] death 0
+
+advancement revoke @s only xpr:2team/xp_grab_blue
