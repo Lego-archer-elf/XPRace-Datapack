@@ -1,0 +1,18 @@
+{
+	"parent": "xpr:2team/root",
+	"criteria":
+	{
+		"leave":
+		{
+			"trigger": "minecraft:enter_block",
+			"conditions":
+			{
+				"block": "minecraft:air"
+			}
+		}
+	},
+	"rewards":
+	{
+		"function": "xpr:2team/xp_reset"
+	}
+}
