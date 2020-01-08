@@ -9,7 +9,11 @@
         "announce_to_chat": false
     },
     "criteria":
-	{
+    {
         "instant": {"trigger": "minecraft:tick"}
-    }
+    },
+  	"rewards":
+  	{
+  		"function": "xpr:2team/join"
+  	}
 }

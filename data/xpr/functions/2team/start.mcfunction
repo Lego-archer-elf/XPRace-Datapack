@@ -23,3 +23,9 @@ execute as @s[tag=admin] run title @a times 0 40 40
 execute as @s[tag=admin] run title @a title {"text":"GO!","color":"yellow"}
 
 execute as @s[tag=admin] run title @a actionbar {"text":"Collect XP and return to the banner","color":"green"}
+
+time set day
+gamerule doDaylightCycle true
+
+effect clear @a[tag=!admin]
+effect give @s[tag=admin] night_vision 1000000 1 true

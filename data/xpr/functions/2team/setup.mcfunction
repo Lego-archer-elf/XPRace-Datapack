@@ -8,6 +8,7 @@ team modify red friendlyFire false
 tag @s remove waiting
 tag @s add admin
 gamemode creative @s
+effect clear @s
 
 give @s minecraft:golden_apple{display:{Name:"{\"text\":\"Create Game Field\"}"}} 1
 give @s minecraft:red_banner 16
@@ -37,3 +38,8 @@ scoreboard objectives add xp xp
 scoreboard objectives add xp_current dummy
 scoreboard objectives add xp_previous dummy
 scoreboard objectives add death deathCount
+scoreboard objectives add cycle dummy
+
+time set noon
+gamerule doDaylightCycle false
+defaultgamemode survival
