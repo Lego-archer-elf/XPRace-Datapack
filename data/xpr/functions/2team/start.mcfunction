@@ -22,10 +22,13 @@ execute as @s[tag=admin] run title @a times 0 40 40
 
 execute as @s[tag=admin] run title @a title {"text":"GO!","color":"yellow"}
 
-execute as @s[tag=admin] run title @a actionbar {"text":"Collect XP and return to the banner","color":"green"}
-
 execute as @s[tag=admin] run time set day
 execute as @s[tag=admin] run gamerule doDaylightCycle true
 
 effect clear @a[tag=!admin]
 effect give @s[tag=admin] night_vision 1000000 1 true
+
+tellraw @a ["",{"text":"\n"}]
+tellraw @a ["",{"text":"Let the XP Race begin!","color":"blue","bold":true}]
+tellraw @a ["",{"text":"The aim of the game is to obtain as much experience as you can and return it to your flag to get points."}]
+tellraw @a ["",{"text":"\n"}]
