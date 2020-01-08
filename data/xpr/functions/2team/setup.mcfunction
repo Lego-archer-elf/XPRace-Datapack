@@ -12,9 +12,9 @@ effect clear @s
 
 give @s minecraft:golden_apple{display:{Name:"{\"text\":\"Create Game Field\"}"}} 1
 give @s minecraft:red_banner 16
-give @s minecraft:red_wool{display:{Name:"{\"text\":\"Red Team\"}"}} 64
+give @s minecraft:red_concrete{display:{Name:"{\"text\":\"Red Team\"}"}} 64
 give @s minecraft:blue_banner 16
-give @s minecraft:blue_wool{display:{Name:"{\"text\":\"Blue Team\"}"}} 64
+give @s minecraft:blue_concrete{display:{Name:"{\"text\":\"Blue Team\"}"}} 64
 give @s minecraft:enchanted_golden_apple{display:{Name:"{\"text\":\"Start Game\"}"}} 8
 give @s minecraft:honey_bottle{display:{Name:"{\"text\":\"0 0 platform fail?\"}"}} 1
 
