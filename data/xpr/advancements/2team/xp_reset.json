@@ -4,11 +4,7 @@
 	{
 		"leave":
 		{
-			"trigger": "minecraft:enter_block",
-			"conditions":
-			{
-				"block": "minecraft:air"
-			}
+			"trigger": "minecraft:location"
 		}
 	},
 	"rewards":
