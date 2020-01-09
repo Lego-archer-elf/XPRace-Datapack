@@ -14,13 +14,14 @@ execute as @s[tag=admin] run spawnpoint @a[team=blue] -1000 68 0
 execute as @s[tag=admin] run tag @a remove captain
 execute as @s[tag=admin] run tag @r[team=red,tag=!admin] add captain
 execute as @s[tag=admin] run tag @r[team=blue,tag=!admin] add captain
+execute as @s[tag=admin] run scoreboard players set @a[tag=captain] xp_score 0
 
 execute as @a[tag=captain,team=red] run tellraw @a [{"selector":"@s"}," has been chosen as Red team captain."]
 execute as @a[tag=captain,team=blue] run tellraw @a [{"selector":"@s"}," has been chosen as Blue team captain."]
 
 execute as @s[tag=admin] run title @a times 0 40 40
 
-execute as @s[tag=admin] run title @a title {"text":"GO!","color":"yellow"}
+execute as @s[tag=admin] run title @a title {"text":"GO!","color":"yellow","bold":true}
 
 execute as @s[tag=admin] run time set day
 execute as @s[tag=admin] run gamerule doDaylightCycle true
