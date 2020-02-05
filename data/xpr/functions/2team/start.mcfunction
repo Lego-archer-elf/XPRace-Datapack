@@ -1,4 +1,19 @@
 tag @a remove waiting
+
+# Randomly assign players to teams (first 12 unassigned players)
+execute as @s[tag=admin] run give @r[tag=,team=] red_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] blue_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] red_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] blue_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] red_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] blue_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] red_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] blue_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] red_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] blue_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] red_concrete
+execute as @s[tag=admin] run give @r[tag=,team=] blue_concrete
+
 execute as @s[tag=admin] run xp set @a 0 points
 execute as @s[tag=admin] run xp set @a 0 levels
 execute as @s[tag=admin] run scoreboard objectives setdisplay belowName xp
